@@ -6,7 +6,7 @@
 
 ## 📸 Dashboard Preview
 
-![Dashboard Preview](dashboard_preview.png)
+![Dashboard Preview](images/dashboard_preview.png)
 
 *Executive KPI cards + clustered bar chart (Income vs Expense vs Savings) + monthly savings rate trend*
 
@@ -14,7 +14,7 @@
 
 ## 🗂️ Sheet Architecture
 
-![Sheet Architecture](sheet_architecture.png)
+![Sheet Architecture](images/sheet_architecture.png)
 
 *RAW_DATA is the single source of truth — all summary sheets and the dashboard pull from it via SUMPRODUCT formulas*
 
@@ -22,7 +22,7 @@
 
 ## 🏷️ Category Analysis
 
-![Category Analysis](category_analysis.png)
+![Category Analysis](images/category_analysis.png)
 
 *Donut chart (expense split by category) + horizontal bar comparison (2023 vs 2024 per category)*
 
@@ -30,7 +30,7 @@
 
 ## 💰 Savings Tracker
 
-![Savings Tracker](savings_tracker.png)
+![Savings Tracker](images/savings_tracker.png)
 
 *Goal progress bars with % completion + cumulative savings growth curve (2023–2024)*
 
@@ -171,10 +171,11 @@ PersonalFinanceDashboard/
 ├── PersonalFinanceDashboard.xlsx      # Main workbook (7 sheets)
 ├── README.md                          # This file
 ├── transactions_template.csv          # CSV template for bank import
-├── dashboard_preview.png              # Dashboard screenshot
-├── category_analysis.png              # Category analysis screenshot
-├── savings_tracker.png                # Savings tracker screenshot
-└── sheet_architecture.png             # Sheet architecture diagram
+└── images/
+    ├── dashboard_preview.png          # Dashboard screenshot
+    ├── category_analysis.png          # Category analysis screenshot
+    ├── savings_tracker.png            # Savings tracker screenshot
+    └── sheet_architecture.png         # Sheet architecture diagram
 ```
 
 ---
